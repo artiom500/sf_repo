@@ -1,0 +1,10 @@
+[core]
+        repositoryformatversion = 0
+        filemode = true
+        bare = false
+        logallrefupdates = true
+[remote "origin"]
+        url = git@github.com:artiom500/sf_repo.git
+        fetch = +refs/heads/*:refs/remotes/origin/*
+[alias]
+        history = log --graph[root@mail .git]#
